@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>Postres Gourmet | GourmetLab</title>
+  <meta name="description" content="Aprende repostería fina con recetas de postres gourmet como fondant de chocolate o panna cotta de albahaca.">
+  <meta name="keywords" content="postres, repostería, recetas de postres, fondant de chocolate, panna cotta, tarta de limón">
+  <meta name="author" content="GourmetLab">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Decorative Glows -->
+  <div class="glow-effect" style="top: -10%; left: -10%;"></div>
+  <div class="glow-effect" style="top: 50%; right: -20%;"></div>
+
+  <!-- HEADER & NAVIGATION -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo" id="nav-logo" aria-label="GourmetLab Home">
+        <span class="logo-icon" aria-hidden="true">🍳</span>
+        <span>GourmetLab</span>
+      </a>
+      
+      <!-- Primary Navigation Links for Cooking Sections -->
+      <nav aria-label="Categorías de Recetas">
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="index.html" class="nav-link" id="link-inicio">Inicio</a></li>
+          <li><a href="desayuno.html" class="nav-link" id="link-desayuno">Desayuno</a></li>
+          <li><a href="comida.html" class="nav-link" id="link-comida">Comida</a></li>
+          <li><a href="cena.html" class="nav-link" id="link-cena">Cena</a></li>
+          <li><a href="postres.html" class="nav-link active" id="link-postres">Postres</a></li>
+        </ul>
+      </nav>
+      
+      <!-- Action Buttons & Theme Toggle -->
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Cambiar tema (oscuro/claro)">
+          <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+        <a href="index.html#boletin" class="btn btn-secondary" style="padding: 0.5rem 1.25rem; font-size: 0.85rem;" id="nav-cta">Suscribirse</a>
+        
+        <!-- Mobile Menu Toggle -->
+        <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú de categorías" aria-expanded="false" aria-controls="nav-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main style="padding-top: 8rem;">
+    <!-- POSTRES SECTION -->
+    <section class="section" id="postres">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Categoría de Recetas</span>
+          <h1 class="section-title" style="font-family: 'Playfair Display', serif;">Postres Irresistibles</h1>
+          <p style="color: var(--text-secondary); margin-top: 1rem;">La repostería fina al alcance de tu mano: técnicas exactas para obtener resultados de textura y sabor celestiales.</p>
+        </div>
+        
+        <div class="features-grid">
+          <!-- Recipe 1 -->
+          <article class="feature-card" id="recipe-postre-1">
+            <div class="feature-icon-wrapper" aria-hidden="true">🍫</div>
+            <h3 class="feature-title">Fondant de Chocolate con Centro Líquido</h3>
+            <p class="feature-desc">Bizcocho caliente de chocolate amargo al 70% de cacao con corazón fundido fluido, acompañado de helado artesanal de vainilla de Madagascar.</p>
+            <div style="margin-top: 1.5rem; display: flex; justify-content: space-between; font-size: 0.85rem; color: var(--accent-primary); font-weight: 600;">
+              <span>⏱️ 25 min</span>
+              <span>🔥 Medio</span>
+            </div>
+          </article>
+          
+          <!-- Recipe 2 -->
+          <article class="feature-card" id="recipe-postre-2">
+            <div class="feature-icon-wrapper" aria-hidden="true">🍋</div>
+            <h3 class="feature-title">Tarta de Limón deconstruida</h3>
+            <p class="feature-desc">Crema suave y ácida de limón amarillo sobre tierra crujiente de galleta de mantequilla salada, merengue italiano flameado y brotes de menta.</p>
+            <div style="margin-top: 1.5rem; display: flex; justify-content: space-between; font-size: 0.85rem; color: var(--accent-primary); font-weight: 600;">
+              <span>⏱️ 35 min</span>
+              <span>🔥 Medio</span>
+            </div>
+          </article>
+          
+          <!-- Recipe 3 -->
+          <article class="feature-card" id="recipe-postre-3">
+            <div class="feature-icon-wrapper" aria-hidden="true">🍓</div>
+            <h3 class="feature-title">Panna Cotta de Albahaca y Fresa</h3>
+            <p class="feature-desc">Panna cotta infusionada con hojas frescas de albahaca dulce, servida sobre un espejo de coulis translúcido de fresas silvestres y frutos rojos.</p>
+            <div style="margin-top: 1.5rem; display: flex; justify-content: space-between; font-size: 0.85rem; color: var(--accent-primary); font-weight: 600;">
+              <span>⏱️ 20 min</span>
+              <span>🔥 Fácil</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <a href="index.html" class="logo" id="footer-logo" aria-label="GourmetLab Home">
+          <span class="logo-icon" aria-hidden="true">🍳</span>
+          <span>GourmetLab</span>
+        </a>
+        <ul class="footer-nav">
+          <li><a href="index.html" class="footer-link">Inicio</a></li>
+          <li><a href="desayuno.html" class="footer-link">Desayuno</a></li>
+          <li><a href="comida.html" class="footer-link">Comida</a></li>
+          <li><a href="cena.html" class="footer-link">Cena</a></li>
+          <li><a href="postres.html" class="footer-link">Postres</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 GourmetLab. Diseñado para el buen comer.</p>
+        <div class="social-links">
+          <a href="#" class="social-icon" aria-label="Twitter">🐦</a>
+          <a href="#" class="social-icon" aria-label="Instagram">📸</a>
+          <a href="#" class="social-icon" aria-label="Pinterest">📌</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>
